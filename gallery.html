@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaster Paradise - Gallery</title>
+    <style>
+        body {
+            font-family: 'Helvetica', 'STXihei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFB7C5;
+        }
+        header {
+            background-color: #FFD0A6;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #F9C0C4;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FCE9DA;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #FFD0A6;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gallery</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="diy.html">DIY Zone</a>
+    <a href="tutorials.html">Tutorials</a>
+    <a href="about.html">About Us</a>
+</nav>
+
+<div class="container">
+    <h2>Plaster Dolls</h2>
+    <div class="gallery">
+        <img src="Photos/doll1.jpg" alt="Plaster Doll 1">
+        <img src="Photos/doll2.jpg" alt="Plaster Doll 2">
+        <img src="Photos/doll3.jpg" alt="Plaster Doll 3">
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Plaster Paradise. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
